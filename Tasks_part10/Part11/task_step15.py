@@ -9,7 +9,6 @@ def ranges(numbers):
     return result
 
 
-
 numbers = [1, 2, 3, 4, 7, 8, 10]
 print(ranges(numbers))
 
