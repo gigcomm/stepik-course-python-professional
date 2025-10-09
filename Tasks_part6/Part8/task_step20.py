@@ -2,10 +2,7 @@ from collections import Counter
 
 
 def print_bar_chart(data, mark):
-    if isinstance(data, str):
-        counter = Counter(data)
-    else:
-        counter = Counter(data)
+    counter = Counter(data)
 
     max_len = max(len(str(key)) for key in counter)
     order = {key: i for i, key in enumerate(counter.keys())}
